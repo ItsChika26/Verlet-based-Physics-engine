@@ -37,7 +37,7 @@ Vector2 operator-(const Vector2 a, const Vector2 b)
 
 Vector2 operator-(const Vector2 a)
 {
-	return a * -1;
+	return Vector2Scale(a, -1);
 }
 
 Vector2 operator*(const Vector2& a, const float b)

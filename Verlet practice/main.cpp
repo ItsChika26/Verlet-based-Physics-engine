@@ -12,7 +12,6 @@ int main() {
 	
 	vector<Verlet_object*> checks;
 
-	Rectangle screen = { 0,0,GetScreenWidth(),GetScreenHeight() };
 
 	while (!WindowShouldClose()) {
 		BeginDrawing();
